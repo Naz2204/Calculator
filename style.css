@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #00B9AE;
+}
+
+header {
+    background-color: #009F93;
+    display: flex;
+}
+
+#site_name {
+    margin: 20px;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+
+    > a {
+        margin: 10px 10px 0 10px;
+        outline: none;
+        text-decoration: none;
+        padding: 10px 5px;
+        border-radius: 5px;
+    }
+
+    > a:link{
+
+    }
+
+    > a:visited{
+        background: #02C3BD;
+    }
+
+    > a:focus{
+
+    }
+
+    > a:hover{
+        background: #02C3BD;
+    }
+
+    > a:active{
+        background: #02C3BD;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc_fields {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #009F93;
+}
+
+.input_value {
+    > label {
+        background-color: green;
+    }
+}
